@@ -21,4 +21,8 @@ def position_taken?(board, index)
 end
 
 def move(board, index, character)
+  if valid_move(board, index)
+    true
+  else
+    false
 end
