@@ -5,4 +5,3 @@ puts "Welcome to TicTacToe!"
 display_board(board)
 turn(board)
 user_input = gets.strip
-input_to_index(user_input)
