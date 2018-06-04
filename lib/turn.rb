@@ -28,11 +28,3 @@ def turn(board)
 puts "Please enter 1-9:"
 gets.strip
 end
-
-input_to_index(user_input)
-
-
-
-# def user_input
-#   user_input = gets.strip
-# end
