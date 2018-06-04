@@ -12,15 +12,17 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  if board[index] == " " 
+  if board[index] == " "
     true
   end
 end
 
 def position_taken?(board, index)
-  if board[index] == " " || board[index] == "" || board[index] == nil
-    false
-  elsif board[index] == "X" || board[index] == "O"
-    true
-  end
+   board[index] == " " || board[index] == "" || board[index] == nil ? false : true
+
+  # if board[index] == " " || board[index] == "" || board[index] == nil
+  #   false
+  # elsif board[index] == "X" || board[index] == "O"
+  #   true
+  # end
 end
