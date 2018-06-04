@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "..lib/turn"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+input_to_index(user_input) = index
 puts "Welcome to TicTacToe!"
 display_board(board)
 turn(board)
-input_to_index(user_input)
