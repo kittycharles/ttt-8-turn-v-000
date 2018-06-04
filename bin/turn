@@ -3,5 +3,4 @@ require_relative "..lib/turn"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to TicTacToe!"
 display_board(board)
-turn(board)
-user_input.input_to_index
+turn(board).input_to_index
