@@ -26,6 +26,6 @@ end
 
 def turn(board)
   user_input = gets.strip
+  puts "Please enter 1-9:"
   user_input.input_to_index
-puts "Please enter 1-9:"
 end
