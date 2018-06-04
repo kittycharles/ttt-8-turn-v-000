@@ -14,7 +14,7 @@ end
 
 def valid_move?(board, index)
   binding.pry
-  !postion_taken?(board, index) && (index <= 8 && index >= 0) ? true : false
+  !position_taken?(board, index) && (index <= 8 && index >= 0) ? true : false
 end
 
 def position_taken?(board, index)
