@@ -4,4 +4,3 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to TicTacToe!"
 display_board(board)
 turn(board)
-user_input = gets.strip
