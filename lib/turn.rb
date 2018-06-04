@@ -25,4 +25,5 @@ def move(board, index, character)
     true
   else
     false
+  end
 end
