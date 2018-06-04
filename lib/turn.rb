@@ -13,7 +13,7 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  binding.pry
+  # binding.pry
   !position_taken?(board, index) && (index <= 8 && index >= 0) ? true : false
 end
 
